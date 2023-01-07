@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/topHeadlinesCard"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        app:cardElevation="5dp"
+        android:backgroundTint="?attr/HomeActivityTopHeadlines"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/newsImageCard"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/topHeadlinesNewsImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="?attr/HomeActivityTopHeadlines" />
+
+                <TextView
+                    android:id="@+id/noImageText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="No Image"
+                    android:textSize="15sp"
+                    android:visibility="gone"
+                    android:fontFamily="@font/roboto_medium"
+                    android:layout_marginTop="52dp"
+                    android:textAlignment="center"
+                    android:textColor="?attr/HomeActivityBackgroundText"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/topHeadlinesNewsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="911 call reveals alabam correction officer blamed caey white for police chase which was ot confirmed yet by people there "
+                android:textSize="18sp"
+                android:textColor="?attr/HomeActivityBackgroundText"
+                android:layout_below="@id/newsImageCard"
+                android:layout_marginStart="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_medium" />
+
+            <ImageView
+                android:id="@+id/personIcon"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_person"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/topHeadlinesNewsTitle" />
+
+            <TextView
+                android:id="@+id/topHeadlinesNewsAuthor"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="John Smith"
+                android:textSize="10sp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/personIcon"
+                android:textColor="?attr/HomeActivityBackgroundText"
+                android:layout_below="@id/topHeadlinesNewsTitle"
+                android:layout_marginTop="11dp"
+                android:fontFamily="@font/roboto_regular" />
+
+            <ImageView
+                android:id="@+id/calenderIcon"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_calender"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toStartOf="@id/topHeadlinesNewsDate"
+                android:layout_below="@id/topHeadlinesNewsTitle" />
+
+            <TextView
+                android:id="@+id/topHeadlinesNewsDate"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="10 Jan 2021"
+                android:textSize="10sp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="7dp"
+                android:textColor="?attr/HomeActivityBackgroundText"
+                android:layout_below="@id/topHeadlinesNewsTitle"
+                android:layout_marginTop="11dp"
+                android:fontFamily="@font/roboto_regular" />
+
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

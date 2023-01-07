@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WebPageActivity">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webPageView" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loadingAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        app:lottie_rawRes="@raw/loading_dots_blue"
+        android:visibility="gone"
+        app:lottie_loop="true"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_speed="2"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/noInternetAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:lottie_rawRes="@raw/no_internet"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="false"/>
+
+    <TextView
+        android:id="@+id/noInternetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Connected. Please check internet connection and try again."
+        android:textColor="@color/dark_blue"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_below="@id/noInternetAnimation"/>
+
+</RelativeLayout>

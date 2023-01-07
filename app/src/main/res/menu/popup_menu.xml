@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuIndia"
+        android:title="India" />
+
+    <item
+        android:id="@+id/menuUK"
+        android:title="UK" />
+
+    <item
+        android:id="@+id/menuNigeria"
+        android:title="Nigeria" />
+
+    <item
+        android:id="@+id/menuUAE"
+        android:title="UAE" />
+
+    <item
+        android:id="@+id/menuArgentina"
+        android:title="Argentina" />
+
+    <item
+        android:id="@+id/menuAustria"
+        android:title="Austria" />
+
+    <item
+        android:id="@+id/menuAustralia"
+        android:title="Australia" />
+
+    <item
+        android:id="@+id/menuBelgium"
+        android:title="Belgium" />
+
+    <item
+        android:id="@+id/menuBulgaria"
+        android:title="Bulgaria" />
+
+    <item
+        android:id="@+id/menuBrazil"
+        android:title="Brazil" />
+
+    <item
+        android:id="@+id/menuCanada"
+        android:title="Canada" />
+
+    <item
+        android:id="@+id/menuSwitzerland"
+        android:title="Switzerland" />
+
+    <item
+        android:id="@+id/menuChina"
+        android:title="China" />
+
+    <item
+        android:id="@+id/menuColombia"
+        android:title="Colombia" />
+
+    <item
+        android:id="@+id/menuCuba"
+        android:title="Cuba" />
+
+    <item
+        android:id="@+id/menuCzechia"
+        android:title="Czechia" />
+
+    <item
+        android:id="@+id/menuGermany"
+        android:title="Germany" />
+
+    <item
+        android:id="@+id/menuEgypt"
+        android:title="Egypt" />
+
+    <item
+        android:id="@+id/menuFrance"
+        android:title="France" />
+
+    <item
+        android:id="@+id/menuGreece"
+        android:title="Greece" />
+
+    <item
+        android:id="@+id/menuHongKong"
+        android:title="HongKong" />
+
+    <item
+        android:id="@+id/menuHungary"
+        android:title="Hungary" />
+
+    <item
+        android:id="@+id/menuIndonesia"
+        android:title="Indonesia" />
+
+    <item
+        android:id="@+id/menuIreland"
+        android:title="Ireland" />
+
+    <item
+        android:id="@+id/menuIsrael"
+        android:title="Israel" />
+
+    <item
+        android:id="@+id/menuItaly"
+        android:title="Italy" />
+
+    <item
+        android:id="@+id/menuJapan"
+        android:title="Japan" />
+
+    <item
+        android:id="@+id/menuKorea"
+        android:title="Korea" />
+
+    <item
+        android:id="@+id/menuLithuania"
+        android:title="Lithuania" />
+
+    <item
+        android:id="@+id/menuLatvia"
+        android:title="Latvia" />
+
+    <item
+        android:id="@+id/menuMorocco"
+        android:title="Morocco" />
+
+    <item
+        android:id="@+id/menuMexico"
+        android:title="Mexico" />
+
+    <item
+        android:id="@+id/menuMalaysia"
+        android:title="Malaysia" />
+
+    <item
+        android:id="@+id/menuNetherlands"
+        android:title="Netherlands" />
+
+    <item
+        android:id="@+id/menuNorway"
+        android:title="Norway" />
+
+    <item
+        android:id="@+id/menuNewZealand"
+        android:title="NewZealand" />
+
+    <item
+        android:id="@+id/menuPhilippines"
+        android:title="Philippines" />
+
+    <item
+        android:id="@+id/menuPoland"
+        android:title="Poland" />
+
+    <item
+        android:id="@+id/menuPortugal"
+        android:title="Portugal" />
+
+    <item
+        android:id="@+id/menuRomania"
+        android:title="Romania" />
+
+    <item
+        android:id="@+id/menuSerbia"
+        android:title="Serbia" />
+
+    <item
+        android:id="@+id/menuRussia"
+        android:title="Russia" />
+
+    <item
+        android:id="@+id/menuSaudiArabia"
+        android:title="SaudiArabia" />
+
+    <item
+        android:id="@+id/menuSweden"
+        android:title="Sweden" />
+
+    <item
+        android:id="@+id/menuSingapore"
+        android:title="Singapore" />
+
+    <item
+        android:id="@+id/menuSlovenia"
+        android:title="Slovenia" />
+
+    <item
+        android:id="@+id/menuSlovakia"
+        android:title="Slovakia" />
+
+    <item
+        android:id="@+id/menuThailand"
+        android:title="Thailand" />
+
+    <item
+        android:id="@+id/menuTurkey"
+        android:title="Turkey" />
+
+    <item
+        android:id="@+id/menuTaiwan"
+        android:title="Taiwan" />
+
+    <item
+        android:id="@+id/menuUkraine"
+        android:title="Ukraine" />
+
+    <item
+        android:id="@+id/menuUS"
+        android:title="USA" />
+
+    <item
+        android:id="@+id/menuVenezuela"
+        android:title="Venezuela" />
+
+    <item
+        android:id="@+id/menuSouthAfrica"
+        android:title="SouthAfrica" />
+
+</menu>

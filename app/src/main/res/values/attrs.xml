@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <attr name="HomeActivityBackground" format="color" />
+        <attr name="HomeActivityBackgroundText" format="color" />
+        <attr name="HomeActivityBackgroundIcon" format="color" />
+        <attr name="HomeActivityTopHeadlines" format="color" />
+        <attr name="HomeActivityCard" format="color" />
+    </declare-styleable>
+</resources>

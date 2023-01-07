@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+               <ImageView
+                    android:id="@+id/topHeadlinesNewsImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                   android:background="@color/ash"/>
+
+            <TextView
+                android:id="@+id/topHeadlinesNewsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:background="@color/ash"
+                android:textSize="18sp"
+                android:textColor="?attr/HomeActivityBackgroundText"
+                android:layout_below="@id/topHeadlinesNewsImage"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_medium" />
+
+            <TextView
+                android:id="@+id/topHeadlinesNewsAuthor"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:background="@color/ash"
+                android:textSize="13sp"
+                android:layout_alignParentStart="true"
+                android:textColor="?attr/HomeActivityBackgroundText"
+                android:layout_below="@id/topHeadlinesNewsTitle"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_regular" />
+
+            <TextView
+                android:id="@+id/topHeadlinesNewsDate"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:background="@color/ash"
+                android:textSize="13sp"
+                android:layout_alignParentEnd="true"
+                android:textColor="?attr/HomeActivityBackgroundText"
+                android:layout_below="@id/topHeadlinesNewsTitle"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_regular" />
+
+
+        </RelativeLayout>
+
+</RelativeLayout>

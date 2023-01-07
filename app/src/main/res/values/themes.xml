@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SmartNews" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/grey</item>
+        <item name="colorPrimaryVariant">@color/grey</item>
+        <item name="colorOnPrimary">@color/sky_blue</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/dark_blue</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+    </style>
+
+    <style name="Theme.FullScreen" parent="Theme.MaterialComponents.Light.NoActionBar" >
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="Theme.homeActivityLightMode" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/grey</item>
+        <item name="colorPrimaryVariant">@color/grey</item>
+        <item name="colorOnPrimary">@color/sky_blue</item>
+
+        <!--        Code to change the background and text color of popup menu-->
+        <item name="android:itemBackground">@color/grey</item>
+        <item name="android:textColor">@color/dark_blue</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        //enable window transitions
+        <item name="android:windowActivityTransitions">true</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_blue</item>
+        <item name="colorSecondaryVariant">@color/dark_blue</item>
+
+        <item name="HomeActivityBackground">@color/grey</item>
+        <item name="HomeActivityBackgroundText">@color/dark_blue</item>
+        <item name="HomeActivityBackgroundIcon">@color/dark_blue</item>
+        <item name="HomeActivityTopHeadlines">@color/white</item>
+        <item name="HomeActivityCard">@color/dark_blue</item>
+
+    </style>
+
+    <style name="Theme.homeActivityDarkMode" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryVariant">@color/dark_blue</item>
+        <item name="colorOnPrimary">@color/sky_blue</item>
+
+<!--        Code to change the background and text color of popup menu-->
+        <item name="android:itemBackground">@color/dark_blue</item>
+        <item name="android:textColor">@color/grey</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+        //enable window transitions
+        <item name="android:windowActivityTransitions">true</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/grey</item>
+        <item name="colorSecondaryVariant">@color/dark_blue</item>
+
+        <item name="HomeActivityBackground">@color/dark_blue</item>
+        <item name="HomeActivityBackgroundText">@color/grey</item>
+        <item name="HomeActivityBackgroundIcon">@color/grey</item>
+        <item name="HomeActivityTopHeadlines">@color/dark_blue_light</item>
+        <item name="HomeActivityCard">@color/grey</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/menuOptions"
+            android:icon="@drawable/settings_new"
+            android:title="Options" />
+
+        <item
+            android:id="@+id/menuShare"
+            android:icon="@drawable/ic_share"
+            android:title="Share App" />
+
+        <item
+            android:id="@+id/menuAboutUs"
+            android:icon="@drawable/about"
+            android:title="About" />
+
+    </group>
+</menu>
